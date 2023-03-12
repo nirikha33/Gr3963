@@ -11,16 +11,16 @@ int b2;
 int x;
 int y;
 
-Console.WriteLine("Введите координату k1: ");
+Console.Write("Введите координату k1: ");
 k1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите координату k2: ");
+Console.Write("Введите координату k2: ");
 k2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите координату b1: ");
+Console.Write("Введите координату b1: ");
 b1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите координату b2: ");
+Console.Write("Введите координату b2: ");
 b2 = Convert.ToInt32(Console.ReadLine());
 
 // Ищем координаты
@@ -28,4 +28,4 @@ x = (b2 - b1) / (k1 - k2);
 y = k2 * x + b2;
 
 // Выводим в консоль итог
-Console.WriteLine($"Точка пересечения: ({x};{y})");
+Console.WriteLine($"Точка пересечения: ({x}; {y})");
